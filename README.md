@@ -1,11 +1,11 @@
 # amazon clone
 
+- context api / react js
 - listing products
 - adding products to cart
 - removing products from cart
 - checkout
 - total sum of products in cart
-- context api
 
 # packages installed
 
