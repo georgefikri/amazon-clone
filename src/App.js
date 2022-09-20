@@ -28,8 +28,18 @@ function App() {
   }, []);
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/amazon-clone">
       <Routes>
+        <Route
+          exact
+          path="/"
+          element={
+            <>
+              <Header />
+              <Home />
+            </>
+          }
+        />
         <Route
           path="/checkout"
           element={
@@ -40,15 +50,6 @@ function App() {
           }
         />
         <Route path="/login" element={<Login />} />
-        <Route
-          path="/"
-          element={
-            <>
-              <Header />
-              <Home />
-            </>
-          }
-        />
       </Routes>
     </Router>
   );
