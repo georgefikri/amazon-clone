@@ -32,3 +32,7 @@
 # see it live on firebase hosting
 
 - https://clone-1c8b4.web.app/
+
+# github pages:
+
+- https://georgefikri.github.io/amazon-clone/
