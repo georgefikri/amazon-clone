@@ -15,6 +15,7 @@
 
 - firebase v9 import issue: https://stackoverflow.com/a/69063168
 - Firebase App named 'DEFAULT' already exists issue : https://github.com/vercel/next.js/issues/1999#issuecomment-302244429
+- github pages white after deployment: https://stackoverflow.com/a/54428366
 
 # firebase hosting steps
 
